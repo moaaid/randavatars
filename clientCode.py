@@ -12,7 +12,7 @@ async def on_ready():
 
 @client.command()
 async def gif(ctx):
-    for i in range(1000000000000000000000000000):
+    while True:
         sleep(5)
         gifsC = client.get_channel(716239404275990576)
         avatarsG = ["https://cdn.discordapp.com/attachments/715910958803058718/716409646612480082/4ez_92692577_544188123163043_8380038935868829351_n.jpg",
@@ -26,7 +26,7 @@ async def gif(ctx):
         
 @client.command()
 async def avatar(ctx):
-    for i in range(1000000000000000000000000000):
+    while True:
         sleep(5)
         avatarC = client.get_channel(716239404275990576)
         avatarsA = ["https://cdn.discordapp.com/attachments/715910958803058718/716409646612480082/4ez_92692577_544188123163043_8380038935868829351_n.jpg",
