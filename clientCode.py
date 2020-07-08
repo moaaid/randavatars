@@ -38,4 +38,4 @@ async def avatar(ctx):
         randomavatar.set_footer(text=":copyright: ทστ__мσαiα∂.#1230")
         await avatarC.send(embed=randomavatar)
 
-client.run("NzE0MTgxNjEyNTc2ODMzNTQ4.XtEPWg.S3CFMrajPfm9qliRM4It2f-Z5Jk")
+client.run("")
